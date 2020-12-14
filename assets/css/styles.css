@@ -1,8 +1,7 @@
-
+/* STYLE FOR ALL PAGES */
 body {
     font-family: Arial, Helvetica, sans-serif;
-
-    background-color: palegoldenrod;
+    background-color: rgb(228, 132, 95);
 }
 
 html {
@@ -14,10 +13,42 @@ html {
 }
 
 
-/* add space for fixed nav */
+/* Add space for fixed nav */
 main {
     margin: 80px 0;
 }
+
+
+/* styles for all white main boxes */
+.block {
+    background-color: #fff;
+  
+    padding: 30px;
+    margin-bottom: 30px;
+} 
+
+/* Creat typography style for all h1. */
+.block-header {
+    /* typography */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #24211e;
+}
+
+
+/* ABOUT ME PAGE */
+.block-header {
+    /* Positioning */
+    margin-bottom: 33px;
+}
+
+#about-image {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+}
+/* END OF ABOUT ME PAGE */
 
 
 /* NAV START */
@@ -25,26 +56,28 @@ main {
     font-family: Georgia, Times, "Times New Roman", serif;
   
     /* Typography */
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    color: rgb(194, 111, 219);
+    color: white;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-    color: #4aaaa5;
+    color: #ec934a;
 }
   
 .navbar {
-    background: rgb(106, 55, 226);
+    background: black;
     border: none;
+    padding: 35px;
 }
   
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
-    .navbar-header {
-      background-color: #8262cc;
+    body {
+        background-color: white;
     }
+    
 }
 
 
@@ -54,26 +87,12 @@ main {
 }
 
 
-/* THIS IS FOOTER */
-.footer {
-
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    padding-top: 4px;
-    background-color: rgb(170, 176, 177);
-    color: rgb(15, 75, 90);  
-}
-/* END OF FOOTER */
-
-
 /* CONTACT FORM */
 .form-control {
     border-radius: 0;
     min-width: 100%;
     max-width: 100%;
+
 }
 
 .submit-btn {
@@ -81,14 +100,40 @@ main {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: lighter;
+
     /* Typography */
-    color: purple;
-    /* Visual */
-    background-color: #b3e7b3;
-    border: 5;
+    color: #24211e;
 }
+
 
 .submit-btn:hover {
     opacity: .7;
 }
 /* END OF CONTACT FORM */ 
+
+
+/* THIS IS FOOTER */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+}
+
+.text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: rgb(15, 75, 90);
+  }
+
+.two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: #041414;
+  }
+/* END OF FOOTER */
