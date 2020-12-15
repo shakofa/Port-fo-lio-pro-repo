@@ -1,4 +1,4 @@
-<img src="assets/imgs/port.fo.jpeg" width="100%" height="250px"/>
+<img src="assets\imgs\por.fo.jpeg" width="100%" height="250px"/>
 
 ## :page_with_curl: Discribtion
  A student portfolio is a compilation of academic work and other forms of educational evidence assembled for the purpose of  evaluating coursework quality, learning progress, and academic achievement. In this project I used CSS-Bootstrap framework to build a Responsive portfolio website. It includes:
