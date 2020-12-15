@@ -1,8 +1,11 @@
 /* STYLE FOR ALL PAGES */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(228, 132, 95);
+
+    background-color: #d16b30;
+
 }
+
 
 html {
     /* Positioning */
@@ -37,6 +40,9 @@ main {
 }
 
 
+
+/* Style for single pages */
+
 /* ABOUT ME PAGE */
 .block-header {
     /* Positioning */
@@ -49,6 +55,7 @@ main {
     width: 200px;
 }
 /* END OF ABOUT ME PAGE */
+
 
 
 /* NAV START */
@@ -69,19 +76,10 @@ main {
 .navbar {
     background: black;
     border: none;
-    padding: 35px;
-}
-  
-/* media query for nav background color change */
-@media only screen and (max-width: 767px) {
-    body {
-        background-color: white;
-    }
-    
+    padding: 10px;
 }
 
-
-/* PORTFOLIO PAGE */ 
+/* PO\RTFOLIO PAGE */ 
 .port-image {
     margin: 20px auto;
 }
@@ -137,3 +135,13 @@ main {
     background-color: #041414;
   }
 /* END OF FOOTER */
+
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+    
+    body {
+        background-color: white;
+    }
+    
+}
