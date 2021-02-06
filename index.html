@@ -1,23 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      
-    <title>About Me Page </title>
-      
-    <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-      
-    <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-</head>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--Fontawesome link-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+    <link rel="stylesheet" href="assets\css\styles.css" media="screen">
+    <title>Home</title>
+</head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container">
             <a class="navbar-brand" href="index.html" id="logo">Shakofa Mahmody</a>
             <!-- Responsive button -->
@@ -28,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About</a>
+                      <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="portfolio.html">portfolio</a>
@@ -40,34 +35,145 @@
             </div>
         </div>
     </nav>
-    <!-- Nav ends here. -->
 
+    <br>
+    <br>
     <!-- This part is the container -->
     <main class="container">
-        <section class="row">
-            <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-4 ">
+                <div class="card bordered-info" id="card" style="width: 18rem;">
+                    <img src="assets\imgs\IMG_2753.jpg" class="card-img-top" id="image" alt="Self portrait of a woman with long black hiar.">
+                    <div class="card-body text-center ">
+                        <h5 class="card-title"><strong>Shakofa Mahmody</strong></h5>
+                        <p class="card-text color-gray">Fullstack Developer</p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/"><i class="fab fa-linkedin" size="5x"></i></a> 
+                            <a href=""><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://github.com/shakofa?tab=repositories"><i class="fab fa-github"></i></a>
+                        </p>
+                        <hr>
+                        <a href="#" class="btn btn-info">Resume</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+    
+            <div class="col-md-7">
                 <article class="block">
                     <h1 class="block-header">About Me</h1>
-                    <hr/>
-                    <img src="assets/imgs/IMG_2753.jpg" alt="Self portrait of a woman with long black hiar. " id="about-image" height="210" width="20"/>
+                
                     <p> 
-                      My name is Shakofa Mahmody. I was born and raised in Afghanistan. Finished High school and college in Afghanistan and have a Bachelore Degree in Education-English language. My first language is Persian and English is my second language.
-                      I have lived in four countries and moved to United State in December 2015. Lived in Chicago for four years and then moved to California in February 2020. I have worked in ARCS (Afghan Red Cross Society) in 2013.
-                    </p>
-                    <br/>
-                    <br/>
-                    <p>
-                       In 2019 I worked as a sales associate in retail industry. Currently I am learning programming and plan to make my new career in Tech and work as a developer.
+                      Hello, I am Shakofa Mahmody!<br>
+                      I am a fullstack web Developer. I have learned programming languages for over few months from coding bootcamp and online programming resources. I have experience with javascript, CSS, HTML, nodejs and jquery. 
+                      Currently I am still learning programming languages in coding bootcamp and at the same time I am looking for a new job in programming.
                     </p>
                     <hr/>
-                    <p>For more information check my LinkedIn page: <a href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/">Click Here</a></p>
+                    <div class="row">
+                        <div class="col-md">
+                            <br>
+                            <h5>Personal Contact Information</h5> 
+                            <br>
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                      <th scope="row">Full Name:</th>
+                                      <td>Shakofa Mahmody</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Address:</th>
+                                      <td>Folsom,California</td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">Email:</th>
+                                      <td colspan="2"> jas.mahmody@gmail.com</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th scope="row">Phone:</th>
+                                        <td colspan="2"> +1 2244092447</td>
+                                      </tr>
+                                  </tbody>
+                            </table>
+                        </div>
+    
+                    </div>
+
+                    <hr>
+                    <br>
+                    <div class="row">
+                        <div class="col-md">
+                            <h5 style="text-align:center"> Languages</h5>
+
+                            <p>Persian</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Native</div>
+                            </div>
+                            <br>
+                            <p>English</p>
+                            <div class="progress">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> Fluent</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                    <div class="row">
+                        <div class="col-md">
+                            <h5 style="text-align:center">Programming Skills</h5>
+                            <br>
+                            <div class="">
+                                <table class="table table-borderless">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Languages</th>
+                                        <th scope="col">Library</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>HTML</td>
+                                        <td>jQuery</td>
+                                      </tr>
+                                      <tr>
+                                        <td>CSS</td>
+                                        <td>Bootstrap</td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="2">JavaScript</td>
+                                      </tr>
+                                      <tr>
+                                        <td colspan="2">Nodejs</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </article>
             </div>
-        </section>
+    
+       
+    
+            <!--The verticle navigation links-->
+            <div class="col-1">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Home" href="index.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-home"></i></a>
+
+                    <a class="nav-link" id="v-pills-profile-tab"  data-toggle="tooltip" data-placement="top" title="Portfolio" href="portfolio.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="far fa-image"></i></a>
+
+
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Contact"  href="contact.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="far fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+       </div>
     </main>
-    <!-- Container ends here -->
-
-
+     
+        
     <!-- This is the footer -->
     <footer class="footer bg-light">
         <div class="two-toned-footer-color"></div>
@@ -75,14 +181,7 @@
             &copy; Copyright 2020 Shakofa Mahmody
         </p>
     </footer>
-        
-    <!-- jQuery CDN -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Bootstrap CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
 
 </body>
-
 </html>
+

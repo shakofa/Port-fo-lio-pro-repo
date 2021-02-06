@@ -2,7 +2,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 
-  background-image: url(https://i.pinimg.com/originals/0d/33/33/0d333316f15e31a7d4f250165b386d6c.jpg);
+  background-image: url(https://cdn.wallpapersafari.com/78/80/Ucsr8H.jpg);
 }
 
 html {
@@ -13,17 +13,41 @@ html {
   min-height: 100%;
 }
 
+
+#card {
+    border:  4px solid rgb(156, 206, 240);
+}
+#image {
+ border-radius: 50%;
+  /*border: 5px solid rgb(77, 186, 236);*/
+  height: 300px;
+}
 /* Add space for fixed nav */
 main {
   margin: 80px 0;
 }
 
+.far {
+    color: black;
+}
+
+.fab {
+
+  color: black;
+}
+.fas {
+  width: 20px;
+  color: black;
+}
 /* styles for all white main boxes */
 .block {
-  background-color: #fff;
-
+ 
   padding: 30px;
   margin-bottom: 30px;
+}
+
+#block{
+  background-color: rgb(223, 241, 248);
 }
 
 /* Creat typography style for all h1. */
