@@ -7,7 +7,8 @@
 *  A contact form 
 *  Images
 
-<img src="assets\imgs\Screenshot(36).png" width="600px" height="250px"/>
+<img src="assets\imgs\Screenshot (36).png" width="600px" height="600px"/>
+
 ## :hammer_and_wrench: Tools and Technologies
 
 - **Languages:** HTML, CSS
