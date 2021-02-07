@@ -13,14 +13,16 @@
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
+  <!--Fontawesome link-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <!-- CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <link rel="stylesheet" href="assets\css\styles.css" media="screen">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container">
-            <a class="navbar-brand" href="index.html" id="logo">Shakofa Mahmody</a>
+            <a class="navbar-brand" href="test.html" id="logo">Shakofa Mahmody</a>
             <!-- Responsive button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"  aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,7 +31,7 @@
                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">portfolio</a>
@@ -47,11 +49,11 @@
     <main class="container">
         <section class="row">
             <div class="col-md-8">
-                <div class="block">
+                <div class="block" id="block">
                     <form class="block-from-horizontal">
                        <h1 class="block-header">Contact</h1>
                        <hr/>
-                       <div class="form-group">
+                       <div class="form-group" id="form">
                           <label for="name" class="col-sm-2 control-label">Name</label>
                           <div class="col-sm-10">
                              <input type="name" class="form-control" id="name" placeholder="Name">
@@ -69,9 +71,25 @@
                               <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
                            </div>
                         </div>
-                        <button class="submit-btn">Submit</button>
+                        <button class="submit-btn btn-info">Submit</button>
                     </form>
                 </div>
+            </div>
+
+            <!--The verticle navigation links-->
+            <div class="col-md-4 text-center">
+                
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Home" href="index.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-home"></i></a>
+
+                    <a class="nav-link" id="v-pills-profile-tab"  data-toggle="tooltip" data-placement="top" title="Portfolio" href="portfolio.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="far fa-image"></i></a>
+
+
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Contact"  href="contact.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="far fa-envelope"></i>
+                    </a>
+                </div>
+                
             </div>
         </section>
     </main>
@@ -88,11 +106,11 @@
     
     
 
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- jQuery CDN 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
 
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- Bootstrap CDN 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
 
 
 </body>
