@@ -2,7 +2,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 
-  background-image: url(https://cdn.wallpapersafari.com/78/80/Ucsr8H.jpg);
+  /*background-image: url(https://cdn.wallpapersafari.com/78/80/Ucsr8H.jpg);*/
 }
 
 html {
@@ -13,12 +13,42 @@ html {
   min-height: 100%;
 }
 
+.btn {
+  background-color: #4b416e;
+  color: white;
+}
 
+#Sbtn {
+  background-color: #4b416e;
+  color: white;
+}
+
+#progress{
+  background-color: #4b416e;
+}
+
+.header{
+  background-color: #4b416e;
+  color: white;
+  font-size: 30px;
+}
+
+.header2{
+  background-color:  #4b416e;
+  color: white;
+  font-size: 30px;
+}
+
+
+.card {
+  border:rgb(80, 16, 199) 1px solid;
+  box-shadow: rgb(93, 33, 212);
+}
 #card {
     border:  4px solid rgb(156, 206, 240);
 }
 #image {
- border-radius: 50%;
+ border-radius: 60%;
   /*border: 5px solid rgb(77, 186, 236);*/
   height: 300px;
 }
@@ -47,14 +77,14 @@ main {
 }
 
 #block{
-  background-color: rgb(223, 241, 248);
+  background-color: rgb(231, 227, 240);
 }
 
 /* Creat typography style for all h1. */
 .block-header {
   /* typography */
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 32px;
+  font-size: px;
   font-weight: bold;
   color: #24211e;
 }
@@ -64,7 +94,7 @@ main {
 /* ABOUT ME PAGE */
 .block-header {
   /* Positioning */
-  margin-bottom: 33px;
+  margin-bottom: 25px;
 }
 
 #about-image {
@@ -93,17 +123,17 @@ main {
   background: black;
   border: none;
   padding: 10px;
+  background-color:#4b416e
 }
 
-/* PO\RTFOLIO PAGE */
+/* PORTFOLIO PAGE */
 .port-image {
   margin: 20px auto;
 }
 
-#picture{
-  border: 1px solid black;
+.btn {
+  text-align: center;
 }
-
 /* CONTACT FORM */
 .form-control {
   border-radius: 0;
@@ -132,6 +162,9 @@ main {
   bottom: 0;
   width: 100%;
   height: 60px;
+  background-color: rgb(231, 227, 240);
+
+  
 }
 
 .text-muted-footer {
@@ -146,6 +179,7 @@ main {
   /* Box-model */
   height: 6px;
   padding-top: 3px;
+  
 
   /* Visual */
   background-color: #041414;
