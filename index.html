@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 
     <link rel="stylesheet" href="assets\css\styles.css" media="screen">
-    <title>Home</title>
+    <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html" id="logo">Shakofa Mahmody</a>
             <!-- Responsive button -->
@@ -23,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="#about">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">portfolio</a>
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
                    </li>
                    <li class="nav-item">
-                       <a class="nav-link" href="contact.html">Contact</a>
+                       <a class="nav-link" href="#contact">Contact</a>
                    </li>
                 </ul>
             </div>
@@ -38,150 +38,227 @@
 
     <br>
     <br>
-    <!-- This part is the container -->
-    <main class="container">
-        <div class="row">
-            <div class="col-md-4 ">
-                <div class="card bordered-info" id="card" style="width: 18rem;">
-                    <img src="assets\imgs\IMG_2753.jpg" class="card-img-top" id="image" alt="Self portrait of a woman with long black hiar.">
-                    <div class="card-body text-center ">
-                        <h5 class="card-title"><strong>Shakofa Mahmody</strong></h5>
-                        <p class="card-text color-gray">Fullstack Developer</p>
-                        <p>
-                            <a href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/"><i class="fab fa-linkedin" size="5x"></i></a> 
-                            <a href=""><i class="fab fa-facebook-square"></i></a>
-                            <a href="https://github.com/shakofa?tab=repositories"><i class="fab fa-github"></i></a>
-                        </p>
-                        <hr>
-                        <a href="#" class="btn btn-info">Resume</a>
-                    </div>
-                </div>
-            </div>
+   <!-- This part is the container -->
+   <main class="container">
+    <header class="header" style="text-align:center" id="about">About</header>
+    <br>
+    <br>
+    <div class="row">
         
-        
-    
-            <div class="col-md-7">
-                <article class="block">
-                    <h1 class="block-header">About Me</h1>
-                
-                    <p> 
-                      Hello, I am Shakofa Mahmody!<br>
-                      I am a fullstack web Developer. I have learned programming languages for over few months from coding bootcamp and online programming resources. I have experience with javascript, CSS, HTML, nodejs and jquery. 
-                      Currently I am still learning programming languages in coding bootcamp and at the same time I am looking for a new job in programming.
-                    </p>
-                    <hr/>
-                    <div class="row">
-                        <div class="col-md">
-                            <br>
-                            <h5>Personal Contact Information</h5> 
-                            <br>
-                            <table class="table table-borderless">
-                                <tbody>
-                                    <tr>
-                                      <th scope="row">Full Name:</th>
-                                      <td>Shakofa Mahmody</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">Address:</th>
-                                      <td>Folsom,California</td>
-                                    </tr>
-                                    <tr>
-                                      <th scope="row">Email:</th>
-                                      <td colspan="2"> jas.mahmody@gmail.com</td>
-                                    </tr>
-
-                                    <tr>
-                                        <th scope="row">Phone:</th>
-                                        <td colspan="2"> +1 2244092447</td>
-                                      </tr>
-                                  </tbody>
-                            </table>
-                        </div>
-    
-                    </div>
-
-                    <hr>
-                    <br>
-                    <div class="row">
-                        <div class="col-md">
-                            <h5 style="text-align:center"> Languages</h5>
-
-                            <p>Persian</p>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Native</div>
-                            </div>
-                            <br>
-                            <p>English</p>
-                            <div class="progress">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> Fluent</div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <hr>
-                    <br>
-                    <div class="row">
-                        <div class="col-md">
-                            <h5 style="text-align:center">Programming Skills</h5>
-                            <br>
-                            <div class="">
-                                <table class="table table-borderless">
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">Languages</th>
-                                        <th scope="col">Library</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <td>HTML</td>
-                                        <td>jQuery</td>
-                                      </tr>
-                                      <tr>
-                                        <td>CSS</td>
-                                        <td>Bootstrap</td>
-                                      </tr>
-                                      <tr>
-                                        <td colspan="2">JavaScript</td>
-                                      </tr>
-                                      <tr>
-                                        <td colspan="2">Nodejs</td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
-                            </div>
-                        </div>
-                    </div>
+        <div class="col-md-4">
+            <div>
+                <img src="assets\imgs\IMG_2753.jpg" class="card-img-top" id="image" alt="Self portrait of a woman with long black hiar.">
+                <div class="card-body text-center ">
                     
-                </article>
-            </div>
-    
-       
-    
-            <!--The verticle navigation links-->
-            <div class="col-1">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Home" href="index.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fas fa-home"></i></a>
-
-                    <a class="nav-link" id="v-pills-profile-tab"  data-toggle="tooltip" data-placement="top" title="Portfolio" href="portfolio.html" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="far fa-image"></i></a>
-
-
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Contact"  href="contact.html" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="far fa-envelope"></i>
-                    </a>
+                    <p class="card-text color-gray">Fullstack Developer</p>
+                   <!-- <p>
+                        <a href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/"><i class="fab fa-linkedin" size="5x"></i></a> 
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://github.com/shakofa?tab=repositories"><i class="fab fa-github"></i></a>
+                    </p>-->
+                    <br>
+                    <a href="#" class="btn">Resume</a>
                 </div>
             </div>
-       </div>
-    </main>
+
+            <!--<div class="col-md-3">-->
+           
+            <br>
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <th scope="row">Address:</th>
+                        <td>Folsom,California</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Email:</th>
+                        <td colspan="2"> jas.mahmody@gmail.com</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Phone:</th>
+                        <td colspan="2"> +1 2244092447</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br>
+        <h5 style="text-align:center"> Languages</h5>
+
+        <p>Persian</p>
+        <div class="progress">
+            <div class="progress-bar" id="progress" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Native</div>
+        </div>
+        <br>
+        <p>English</p>
+        <div class="progress">
+            <div class="progress-bar" id="progress" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> Fluent</div>
+        </div>
+        </div>
      
+        <div class="col-md-7">
+            <article class="block">
+                <P class="block-header">-- UNDER CONSTRUCTION! --</P>
+                 
+                <p> 
+                    Hello, I am Shakofa Mahmody!<br>
+                    I am a Fullstack Web Developer. I have learned programming languages for over few months from coding bootcamp and online programming resources. I have experience with javascript, CSS, HTML, nodejs, Express, EC6, jquery. 
+                    I love interacting with people and would love to work in group projects. I am still learning and at the same time  looking for new jobs and opurtunities in programming.
+                </p>
+            </article>
+            <br>
+            <br>
+
+
+            <h5 style="text-align:center"><strong>Programming Skills</strong></h5>
+            <h6 style="text-align:center">(MERN Stack)</h6>
+            <br>
+            <div class="">
+                <table class="table table-borderless">
+                    <thead>
+                        <tr>
+                            <th scope="col">Languages</th>
+                            <th scope="col">Library</th>
+                            <th scope="col">Dstabases</th>
+                            <th scope="col">Others</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>jQuery</td>
+                            <td>MySQL(workbench)</td>
+                            <td>Express</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Bootstrap</td>
+                            <td>MongoDB(Robo)</td>
+                            <td>EC6</td>
+                                        
+                        </tr>
+                        <tr>
+                            <td colspan="3">JavaScript</td>
+                            <td>API</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Nodejs</td>
+                            <td>Handlebars</td>
         
-    <!-- This is the footer -->
-    <footer class="footer bg-light">
-        <div class="two-toned-footer-color"></div>
-        <p class="text-muted text-muted-footer text-center">
-            &copy; Copyright 2020 Shakofa Mahmody
-        </p>
-    </footer>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+            
+
+        <!--The verticle navigation links-->
+        <div class="col-1">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"   aria-orientation="vertical">
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Home" href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/"><i class="fab fa-linkedin" size="5x"></i></a>
+ 
+                    <a class="nav-link" id="v-pills-profile-tab"  data-toggle="tooltip" data-placement="top" title="Portfolio" href=""><i class="fab fa-facebook-square"></i></a>
+ 
+ 
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Contact"  href="https://github.com/shakofa?tab=repositories"><i class="fab fa-github"></i>
+                    </a>
+
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Contact"  href="jas.mahmody@gmail.com"><i class="fas fa-envelope-square"></i>
+                    </a>
+                     
+                </div>
+            </div>
+        </div>   
+          
+    </div>
+    <br>
+    <br>
+
+    <header class="header2" style="text-align:center" id="portfolio">Portfolio</header>
+    <br>
+    <div class="col-md-12">
+        <div class="row">
+            <div class=" col-md-8 offset-2" >
+
+                <div class="card" style="width: 45rem;">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>1-Legend of Worda</strong></h5>
+
+                      <p class="card-text">The legend of Worda is a simple dictionary search. There contains three containers that displays random words according to the specified etymology posted above. There are a couple of 'keywords' that can be searched and they will bring up custom background pics. These words include: link, hero, dog, cat, shield, sword, owl, ocarina, horse, tunic and legend. There is a contact page used to contact the creators of the page and also an about page that talks about the page and its creators.</p>
+
+                      <img  class="img-fluid port-image" src="assets\imgs\Screenshot (29).png" alt="This is a placeholder">
+
+                      <a href="https://github.com/shakofa/word-force" class="card-link"><button type="button" class="btn ">GitHub repository</button></a>
+
+                      <a href="https://shakofa.github.io/word-force/" class="card-link"><button type="button" class="btn  ">Deployed app</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class=" col-md-8 offset-2" >
+
+                <div class="card" style="width: 45rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">1-Legend of Worda</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <img  class="img-fluid port-image" src="assets\imgs\Screenshot (29).png" alt="This is a placeholder">
+
+                      <a href="#" class="card-link"><button type="button" class="btn ">GitHub repository</button></a>
+
+                      <a href="#" class="card-link"><button type="button" class="btn  ">Deployed app</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <header class="header2" style="text-align:center">Contact</header>
+    <br>
+    <!--contact section -->
+    <section class="row">
+        <div class="col-md-8 offset-2">
+            <div class="block" id="block">
+                <form class="block-from-horizontal">
+                   <h1 class="block-header" id="contact">Contact</h1>
+                   <hr/>
+                   <div class="form-group" id="form">
+                      <label for="name" class="col-sm-2 control-label">Name</label>
+                      <div class="col-sm-10">
+                         <input type="name" class="form-control" id="name" placeholder="Name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                       <label for="email" class="col-sm-2 control-lable">Email</label>
+                       <div class="col-sm-10">
+                         <input type="email" class="form-control" id="email" placeholder="Email">
+                       </div>
+                    </div> 
+                    <div class="form-group">
+                       <label for="msg" class="col-sm-2 control-lable">Message</label>
+                       <div class="col-sm-10">
+                          <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+                       </div>
+                    </div>
+                    <button type="button" class="submit-btn" id="Sbtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+ 
+    
+<!-- This is the footer -->
+<footer class="footer bg-light">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright 2020 Shakofa Mahmody
+    </p>
+</footer>
+
+<script src="modal.js"></script>
 
 </body>
 </html>
-
