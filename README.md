@@ -7,8 +7,8 @@
 *  A contact form 
 *  Images
 
-<img src="assets\imgs\Image1.jpg" width="300px" height="300px"/>  <img src="assets\imgs\Image2.jpg" width="300px" height="300px"/>
-<img src="assets\imgs\Image3.jpg" width="300px" height="300px"/>  <img src="assets\imgs\Image4.jpg" width="300px" height="300px"/>
+<img src="assets\imgs\Image1.jpg" width="400px" height="400px"/>  <img src="assets\imgs\Image2.jpg" width="400px" height="400px"/>
+<img src="assets\imgs\image3.jpg" width="400px" height="400px"/>  <img src="assets\imgs\image4.jpg" width="400px" height="400px"/>
 
 ## :hammer_and_wrench: Tools and Technologies
 
