@@ -42,10 +42,13 @@ html {
 
 .card {
   border:rgb(80, 16, 199) 1px solid;
-  box-shadow: rgb(93, 33, 212);
+  box-shadow:  2px 1px 12px 12px rgba(43, 43, 83, 0.2);
+
 }
 #card {
     border:  4px solid rgb(156, 206, 240);
+    
+
 }
 #image {
  border-radius: 60%;
