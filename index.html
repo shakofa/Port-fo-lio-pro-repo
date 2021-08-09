@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 
     <link rel="stylesheet" href="assets\css\styles.css" media="screen">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -49,8 +50,17 @@
             <div>
                 <img src="assets\imgs\IMG_2753.jpg" class="card-img-top" id="image" alt="Self portrait of a woman with long black hiar.">
                 <div class="card-body text-center ">
+                    <div class="social">
+                        <a href="https://twitter.com/bphillips201"><i id="twitter" class="fab fa-twitter"></i></a>
+                        <i id="github" class="g fab fa-github-square"></i>
+                        <i id="stack" class="fab fa-stack-overflow"></i>
+                        <i id="linkedin" class="fab fa-linkedin"></i>
+                        <i id="code" class="fas fa-code"></i>
+                        <i id="plus" class="fas fa-user-plus"></i>
+                        <i id="mail" class="fas fa-envelope-square"></i>
+                    </div>
                     
-                    <p class="card-text color-gray">will be updated hee soon.</p>
+                    <!-- <p class="card-text color-gray">will be updated hee soon.</p> -->
                    <!-- <p>
                         <a href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/"><i class="fab fa-linkedin" size="5x"></i></a> 
                         <a href=""><i class="fab fa-facebook-square"></i></a>
@@ -281,6 +291,120 @@
 </footer>
 
 <script src="modal.js"></script>
+<script type="text/javascript">
+
+$( document ).ready(function() {
+            $('i').hide();
+        });
+
+        $(window).on("load", function() {
+            $('i').show();
+
+            var twitterPos = $('#twitter').position();
+            var githubPos = $('#github').position();
+            var stackPos = $('#stack').position();
+            var linkedinPos = $('#linkedin').position();
+            var codePos = $('#code').position();
+            var plusPos = $('#plus').position();
+            var mailPos = $('#mail').position();
+            var imgPos = $('.me').position();
+            
+            $('i').css({
+                position: 'absolute',
+                zIndex: '1',
+                top: imgPos.top + 100,
+                left: '47%'
+            });
+            
+            setTimeout(function() {
+                $('#twitter').animate({
+                top: twitterPos.top + 10,
+                left: twitterPos.left - 10
+                }, 500);
+            }, 250);
+            
+            setTimeout(function() {
+                $('#twitter').animate({
+                top: twitterPos.top,
+                left: twitterPos.left
+                }, 250);
+                
+                $('#github').animate({
+                top: githubPos.top + 10,
+                left: githubPos.left - 6
+                }, 500);
+            }, 500);
+            
+            setTimeout(function() {
+                $('#github').animate({
+                top: githubPos.top,
+                left: githubPos.left
+                }, 250);
+                
+                $('#stack').animate({
+                top: stackPos.top + 10,
+                left: stackPos.left - 3
+                }, 500);
+            }, 750);
+            
+            setTimeout(function() {
+                $('#stack').animate({
+                top: stackPos.top,
+                left: stackPos.left
+                }, 250);
+                
+                $('#linkedin').animate({
+                top: linkedinPos.top + 10,
+                left: linkedinPos.left
+                }, 500);
+            }, 1000);
+            
+            setTimeout(function() {
+                $('#linkedin').animate({
+                top: linkedinPos.top,
+                left: linkedinPos.left
+                }, 250);
+                
+                $('#code').animate({
+                top: codePos.top + 10,
+                left: codePos.left + 3
+                }, 500);
+            }, 1250);
+            
+            setTimeout(function() {
+                $('#code').animate({
+                top: codePos.top,
+                left: codePos.left
+                }, 250);
+                
+                $('#plus').animate({
+                top: plusPos.top + 10,
+                left: plusPos.left + 6
+                }, 500);
+            }, 1500);
+            
+            setTimeout(function() {
+                $('#plus').animate({
+                top: plusPos.top,
+                left: plusPos.left
+                }, 250);
+                
+                $('#mail').animate({
+                top: mailPos.top + 10,
+                left: mailPos.left + 10
+                }, 500);
+            }, 1750);
+            
+            setTimeout(function() {
+                $('#mail').animate({
+                top: mailPos.top,
+                left: mailPos.left
+                }, 250);
+            }, 2000);
+        
+        })
+
+</script>
 
 </body>
 </html>
