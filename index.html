@@ -48,17 +48,16 @@
         
         <div class="col-md-4">
             <div>
-                <img src="assets\imgs\IMG_2753.jpg" class="card-img-top" id="image" alt="Self portrait of a woman with long black hiar.">
+                <img src="assets\imgs\IMG_2753.jpg" class="me" id="image" alt="Self portrait of a woman with long black hiar.">
+                <div class="social">
+                    <i id="facebook" class="fab fa-facebook"></i>
+                    <i id="twitter" class="fab fa-twitter"></i></a>
+                    <i id="github" class="g fab fa-github-square"></i>
+                    <i id="linkedin" class="fab fa-linkedin"></i>
+                    <i id="mail" class="fas fa-envelope-square"></i>
+                </div>
                 <div class="card-body text-center ">
-                    <div class="social">
-                        <a href="https://twitter.com/bphillips201"><i id="twitter" class="fab fa-twitter"></i></a>
-                        <i id="github" class="g fab fa-github-square"></i>
-                        <i id="stack" class="fab fa-stack-overflow"></i>
-                        <i id="linkedin" class="fab fa-linkedin"></i>
-                        <i id="code" class="fas fa-code"></i>
-                        <i id="plus" class="fas fa-user-plus"></i>
-                        <i id="mail" class="fas fa-envelope-square"></i>
-                    </div>
+                    
                     
                     <!-- <p class="card-text color-gray">will be updated hee soon.</p> -->
                    <!-- <p>
@@ -66,6 +65,7 @@
                         <a href=""><i class="fab fa-facebook-square"></i></a>
                         <a href="https://github.com/shakofa?tab=repositories"><i class="fab fa-github"></i></a>
                     </p>-->
+                    <br>
                     <br>
                     <a href="https://drive.google.com/file/d/155SlfS3ItM-KkEMYtfOLdGcCjo_NOOxg/view?usp=sharing" class="btn">Resume</a>
                 </div>
@@ -302,10 +302,8 @@ $( document ).ready(function() {
 
             var twitterPos = $('#twitter').position();
             var githubPos = $('#github').position();
-            var stackPos = $('#stack').position();
+            var facebookPos = $('#facebook').position();
             var linkedinPos = $('#linkedin').position();
-            var codePos = $('#code').position();
-            var plusPos = $('#plus').position();
             var mailPos = $('#mail').position();
             var imgPos = $('.me').position();
             
@@ -371,17 +369,17 @@ $( document ).ready(function() {
                 }, 500);
             }, 1250);
             
-            setTimeout(function() {
-                $('#code').animate({
-                top: codePos.top,
-                left: codePos.left
-                }, 250);
+            // setTimeout(function() {
+            //     $('#code').animate({
+            //     top: codePos.top,
+            //     left: codePos.left
+            //     }, 250);
                 
-                $('#plus').animate({
-                top: plusPos.top + 10,
-                left: plusPos.left + 6
-                }, 500);
-            }, 1500);
+            //     $('#plus').animate({
+            //     top: plusPos.top + 10,
+            //     left: plusPos.left + 6
+            //     }, 500);
+            // }, 1500);
             
             setTimeout(function() {
                 $('#plus').animate({
