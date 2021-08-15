@@ -7,7 +7,7 @@
 *  A contact form 
 *  Images
 
-<img src="assets\imgs\Screenshot (69).png" width="620px" height="610px"/>  
+<img src="assets\imgs\Screenshot (69).png" width="620px" height="620px"/>  
 
 
 ## :hammer_and_wrench: Tools and Technologies
