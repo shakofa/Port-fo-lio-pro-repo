@@ -51,9 +51,9 @@
                 <img src="assets\imgs\IMG_2753.jpg" class="me" id="image" alt="Self portrait of a woman with long black hiar.">
                 <div class="social">
 
-                    <a href=""><i id="facebook" class="fab fa-facebook-square"></i></a>
+                    <!-- <a href=""><i id="facebook" class="fab fa-facebook-square"></i></a>
 
-                    <a href=""><i id="twitter" class="fab fa-twitter"></i></a>
+                    <a href=""><i id="twitter" class="fab fa-twitter"></i></a> -->
 
                     <a href="https://github.com/shakofa?tab=repositories"><i id="github" class="g fab fa-github-square"></i></a>
 
@@ -73,7 +73,7 @@
                     </p>-->
                     <br>
                     <br>
-                    <a href="https://drive.google.com/file/d/155SlfS3ItM-KkEMYtfOLdGcCjo_NOOxg/view?usp=sharing" class="btn">Resume</a>
+                    <a href="https://drive.google.com/file/d/155SlfS3ItM-KkEMYtfOLdGcCjo_NOOxg/view?usp=sharing" class="btn"><button class="btn0">Resume</button></a>
                 </div>
             </div>
 
@@ -173,7 +173,7 @@
 
         <!--The verticle navigation links-->
         <div class="col-1">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"   aria-orientation="vertical">
+                <!-- <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"   aria-orientation="vertical">
                     <a class="nav-link" id="v-pills-messages-tab" data-toggle="tooltip" data-placement="top" title="Home" href="https://www.linkedin.com/in/shakofa-mahmody-2328a3193/"><i class="fab fa-linkedin" size="5x"></i></a>
  
                     <a class="nav-link" id="v-pills-profile-tab"  data-toggle="tooltip" data-placement="top" title="Portfolio" href=""><i class="fab fa-facebook-square"></i></a>
@@ -186,8 +186,8 @@
                     </a>
                      
                 </div>
-            </div>
-        </div>   
+            </div> -->
+        </div>    
           
     </div>
     <br>
@@ -207,9 +207,9 @@
 
                       <img  class="img-fluid port-image" src="assets\imgs\Screenshot (29).png" alt="This is a placeholder">
 
-                      <a href="https://github.com/shakofa/word-force" class="card-link"><button type="button" class="btn ">GitHub repository</button></a>
+                      <a href="https://github.com/shakofa/word-force" class="card-link"><button type="button" class="btn0 ">GitHub repository</button></a>
 
-                      <a href="https://shakofa.github.io/word-force/" class="card-link"><button type="button" class="btn  ">Deployed app</button></a>
+                      <a href="https://shakofa.github.io/word-force/" class="card-link"><button type="button" class="btn0  ">Deployed app</button></a>
                     </div>
                 </div>
             </div>
@@ -224,9 +224,9 @@
                       <p class="card-text">This Full-Stack project is a great app to track your daily fitness activities. When the user opens the application, they will be directed to a login page. Once logged in, the user will be able to create a completely customized workout rutines!</p>
                       <img  class="img-fluid port-image" src="assets\imgs\Image1.jpg" alt="This is a placeholder">
 
-                      <a href="https://github.com/shakofa/fantastic_fitnessTracker" class="card-link"><button type="button" class="btn ">GitHub repository</button></a>
+                      <a href="https://github.com/shakofa/fantastic_fitnessTracker" class="card-link"><button type="button" class="btn0 ">GitHub repository</button></a>
 
-                      <a href="https://fantastic-fitness-tracker.herokuapp.com/" class="card-link"><button type="button" class="btn  ">Deployed app</button></a>
+                      <a href="https://fantastic-fitness-tracker.herokuapp.com/" class="card-link"><button type="button" class="btn0  ">Deployed app</button></a>
                     </div>
                 </div>
             </div>
@@ -241,9 +241,9 @@
                     <p class="card-text"> This is a Mern stack app that utilizes socket io and many other technologies to run a functional, responsive chat room application. This chat room app is built for Spotify users who are using Spotify's prime to listen to music. The user is able to chat at the same time he is listening to Spotify music.</p>
                     <img  class="img-fluid port-image" src="assets\imgs\pro3.png" alt="This is a placeholder">
 
-                    <a href="https://github.com/shakofa/Bandstand/tree/main" class="card-link"><button type="button" class="btn ">GitHub repository</button></a>
+                    <a href="https://github.com/shakofa/Bandstand/tree/main" class="card-link"><button type="button" class="btn0 ">GitHub repository</button></a>
 
-                    <a href="https://bandstandv1.herokuapp.com/" class="card-link"><button type="button" class="btn  ">Deployed app</button></a>
+                    <a href="https://bandstandv1.herokuapp.com/" class="card-link"><button type="button" class="btn0 ">Deployed app</button></a>
                     </div>
                 </div>
             </div>
@@ -253,8 +253,8 @@
 </div>
 
 
-    <header class="header2" style="text-align:center">Contact</header>
-    <br>
+    <!-- <header class="header2" style="text-align:center">Contact</header> -->
+    
     <!--contact section -->
     <!-- <section class="row">
         <div class="col-md-8 offset-2">
@@ -307,9 +307,9 @@
         $(window).on("load", function() {
             $('i').show();
 
-        var twitterPos = $('#twitter').position();
+        // var twitterPos = $('#twitter').position();
         var githubPos = $('#github').position();
-        var facebookPos = $('#facebook').position();
+        // var facebookPos = $('#facebook').position();
         var linkedinPos = $('#linkedin').position();
         var mailPos = $('#mail').position();
         var imgPos = $('.me').position();
@@ -318,39 +318,16 @@
                 position: 'absolute',
                 zIndex: '1',
                 top: imgPos.top + 100,
-                left: '47%'
+                left: '45%'
+                
         });
             
         setTimeout(function() {
-            $('#github').animate({
-            top: githubPos.top + 10,
-            left: githubPos.left - 10
-            }, 500);
-        }, 250);
-            
-        setTimeout(function() {
-            $('#github').animate({
-            top: githubPos.top,
-            left: githubPos.left
-            }, 250);
-                
-            $('#facebook').animate({
-            top: facebookPos.top + 10,
-            left: facebookPos.left - 6
-            }, 500);
-        }, 500);
-            
-        setTimeout(function() {
-            $('#facebook').animate({
-            top: facebookPos.top,
-            left: facebookPos.left
-            }, 250);
-                    
             $('#linkedin').animate({
             top: linkedinPos.top + 10,
-            left: linkedinPos.left - 3
+            left: linkedinPos.left - 10
             }, 500);
-        }, 750);
+        }, 250);
             
         setTimeout(function() {
             $('#linkedin').animate({
@@ -358,23 +335,47 @@
             left: linkedinPos.left
             }, 250);
                 
-            $('#twitter').animate({
-            top: twitterPos.top + 10,
-            left: twitterPos.left
+            $('#github').animate({
+            top: githubPos.top + 10,
+            left: githubPos.left - 6
             }, 500);
-        }, 1000);
+        }, 500);
             
         setTimeout(function() {
-            $('#twitter').animate({
-            top: twitterPos.top,
-            left: twitterPos.left
+            $('#github').animate({
+            top: githubPos.top,
+            left: githubPos.left
+            }, 250);
+                    
+            $('#mail').animate({
+            top: mailPos.top + 10,
+            left: mailPos.left -3
+            }, 500);
+        }, 750);
+            
+        setTimeout(function() {
+            $('#mail').animate({
+            top: mailPos.top,
+            left: mailPos.left
             }, 250);
                 
             $('#mail').animate({
-            top: mailPos.top + 10,
-            left: mailPos.left + 3
+            top: mailPos.top ,
+            left: mailPos.left 
             }, 500);
-        }, 1250);
+        }, 1000);
+            
+        // setTimeout(function() {
+        //     $('#twitter').animate({
+        //     top: twitterPos.top,
+        //     left: twitterPos.left
+        //     }, 250);
+                
+        //     $('#mail').animate({
+        //     top: mailPos.top + 10,
+        //     left: mailPos.left + 3
+        //     }, 500);
+        // }, 1250);
             
             // setTimeout(function() {
             //     $('#code').animate({
@@ -400,12 +401,12 @@
         //     }, 500);
         // }, 1750);
             
-        setTimeout(function() {
-            $('#mail').animate({
-            top: mailPos.top,
-            left: mailPos.left
-            }, 250);
-        }, 2000);
+        // setTimeout(function() {
+        //     $('#mail').animate({
+        //     top: mailPos.top,
+        //     left: mailPos.left
+        //     }, 250);
+        // }, 2000);
 
         
     });

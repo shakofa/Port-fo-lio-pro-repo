@@ -19,7 +19,7 @@ body {
 
 .social {
 
-  text-align: center;
+  text-align: center; 
   font-size: 2.5em;
   color: rgb(179, 173, 231);
   overflow: hidden;
@@ -30,7 +30,7 @@ body {
   }
   
   i {
-      margin: .3em;
+      margin: .2em;
       cursor: pointer;
       transition: color 300ms ease, margin-top 300ms ease;
       transform: translateZ(0);}
@@ -60,7 +60,29 @@ body {
       }
 
 
-
+.btn0{
+    box-shadow: 3px 4px 0px 0px #899599;
+    background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color:#ededed;
+    border-radius:15px;
+    border:1px solid #5c25c4;
+    display:inline-block;
+    cursor:pointer;
+    color:#3a8a9e;
+    font-family:Arial;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #e1e2ed;
+  }
+  .btn0:hover {
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color:#bab1ba;
+  }
+  .btn0:active {
+    position:relative;
+    top:1px;
+  }
 
 
 html {
@@ -71,10 +93,7 @@ html {
   min-height: 100%;
 }
 
-.btn {
-  background-color: #4b416e;
-  color: white;
-}
+
 
 #Sbtn {
   background-color: #4b416e;
