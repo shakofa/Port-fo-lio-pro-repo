@@ -120,6 +120,9 @@ html {
 .card {
   border:rgb(80, 16, 199) 1px solid;
   box-shadow:  2px 1px 12px 12px rgba(43, 43, 83, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  
 
 }
 #card {
