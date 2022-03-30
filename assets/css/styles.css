@@ -1,7 +1,11 @@
 /* STYLE FOR ALL PAGES */
 body {
   font-family: Arial, Helvetica, sans-serif;
-
+ margin:0px;
+ padding:0px;
+ position : relative;
+ min-width: auto;
+ min-height: auto;
   /*background-image: url(https://cdn.wallpapersafari.com/78/80/Ucsr8H.jpg);*/
 }
 
