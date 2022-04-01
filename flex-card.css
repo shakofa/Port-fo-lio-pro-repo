@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center; */
     overflow: hidden;
+    margin:0;
     height: 100vh;
     background: -webkit-linear-gradient( rgb(4, 38, 53), hsl(313, 84%, 12%), black);
     background: linear-gradient( rgb(4, 38, 53), hsl(313, 84%, 12%), black);
@@ -26,7 +27,7 @@ body{
     overflow: hidden;
     min-width: 60px;
     margin: 10px;
-    background:var(--optionBackground, var(--defaultBackground, #e6e9ed));
+    background:var(--optionBackground, var(--defaultBackground, #f3f5f7));
     background-position: center;
     cursor: pointer;
     /* box-shadow: white 4px 4px 4px 4px; */
@@ -60,7 +61,7 @@ body{
 
 .option .options.active .shadow{
 
-    box-shadow: inset 0 -120px 120px -120px rgb(59, 4, 61), inset 0 -120px 120px -100px rgb(34, 1, 29);
+    box-shadow: inset 0 -130px 140px -130px rgb(34, 0, 36), inset 0 -120px 140px -100px rgb(65, 2, 55);
 }
 
 .option .options.active .label {
@@ -82,7 +83,9 @@ body{
 
 .option .options:not(.active) .shadow{
     bottom: -40px;
-    box-shadow: inset 0 -120px 120px -120px rgb(3, 2, 48), inset 0 -120px 120px -100px rgb(2, 11, 63);
+    height:100px;
+    /* box-shadow: inset 0 -120px 120px -120px rgb(23, 22, 87), inset 0 -120px 120px -100px rgb(18, 26, 73); */
+    box-shadow: inset 0 -130px 140px -130px rgb(74, 100, 148), inset 0 -120px 140px -100px rgb(15, 40, 153);
 }
 
 .option .options:not(.active) .label {
@@ -95,7 +98,7 @@ body{
     bottom: 0px;
     left:0px;
     right:0px;
-    height:80px;
+    height:70px;
     transition: 0.5s cubic-bezier(0.05, 0.67, 0.41, 0.95);
 }
 
@@ -124,12 +127,13 @@ body{
     flex-direction: row;    
     justify-content: center;
     align-items: center;
-    min-width: 40px;
-    max-width: 40px;
-    height: 40px;
+    min-width: 50px;
+    max-width: 50px;
+    height: 50px;
     font-weight: bold;
     font-size: 26px;
     border-radius: 100%;
+    box-shadow: 3px 3px 4px rgb(40, 4, 41);
     background-color: white;
     color: var(--defaultBackground);
 }
@@ -152,6 +156,7 @@ body{
     position: absolute;
     justify-content: center;
     left:0px;
+    
     transition: 0.5s cubic-bezier(0.05, 0.67, 0.41, 0.95)  opacity 0.5s ease-out;  
 }
 
@@ -171,7 +176,7 @@ body{
 
 .btn0{
     box-shadow: 3px 4px 0px 0px #555d9e;
-    background:linear-gradient(to bottom, #ededed 5%, #b6a0b6 100%);
+    background:linear-gradient(to bottom, #ededed 5%, #8b858b 100%);
     background-color:#ededed;
     border-radius:15px;
      border:none;
@@ -186,7 +191,7 @@ body{
     text-shadow:0px 1px 0px #e1e2ed;
   }
   .btn0:hover {
-    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background:linear-gradient(to bottom, #e6e1e6 5%, #ededed 100%);
     background-color:#bab1ba;
   }
   .btn0:active {
