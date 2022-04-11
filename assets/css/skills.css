@@ -4,6 +4,8 @@ body {
     background: -webkit-linear-gradient( rgb(4, 38, 53), hsl(313, 84%, 12%), black);
     background: linear-gradient( rgb(4, 38, 53), hsl(313, 84%, 12%), black);
     color: white;
+    box-sizing: border-box;
+    
 } 
    
   
@@ -59,10 +61,55 @@ body {
   }
 
 
+  .column {
+    float: left;
+    width:33.33%;
+    margin-right: auto;
+    margin-left: auto
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="column"] {
+      width: 100%;
+
+    }
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+li {
+  margin-left:50px;
+  border-radius: 50px;
+  margin-left:50px;
+  text-decoration: none;
+}
+
+.list{
+  border: 1px solid white;
+
+}
+
+.rounded{
+  border-radius: 2000px;
+  padding: 20px; 
+  border:none;
+  margin-left: 50px;
+  width: 270px;
+  height:340px;
+  box-shadow: 0 0 70px rgb(132, 127, 127);
+
+  
+}
+
   /* THIS IS FOOTER */
 .footer {
-    position: absolute;
     bottom: 0;
+    position:fixed ;
     width: 100%;
     height: 60px;
     background-color: rgb(24, 22, 27);
